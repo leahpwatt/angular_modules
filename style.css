@@ -1,0 +1,48 @@
+@font-face {
+	font-family: "palitoon";
+	src: url(palitoon.otf);
+}
+
+body {
+	background-color: #4080bf;
+	text-align: center;
+	font-family: "palitoon", verdana, serif;
+}
+
+h1 {
+	font-size: 4em;
+	color: #ffffff;
+	text-shadow: 3px 3px 3px #000;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(224, 150, 69, .75);
+    font-size: 2em;
+    text-shadow: 1px 1px .5px #000;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #E09645;
+}
+
+img {
+	border: 2px solid #204060;
+	margin-top: 20px;
+}

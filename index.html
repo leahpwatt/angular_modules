@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular-route.min.js"></script>
+	<script src="script.js"></script>
+	<script src="mainController.js"></script>
+	<script src="catController.js"></script>
+	<script src="dogController.js"></script>
+	<link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+<body ng-app="animalApp">
+	<header><h1>ANIMAL PICS!<h1></header>
+	<nav>
+		<ul>
+			<li><a href="#/animals.html">Home</a></li>
+			<li><a href="#/cat">Cats</a></li>
+			<li><a href="#/dog">Dogs</a></li>
+			<li><a href="#/porcupine">Porcupines</a></li>
+			<li><a href="#/pig">Pigs</a></li>
+		</ul>
+	</nav>
+	<div ng-view=""></div>
+</body>
+</html>
